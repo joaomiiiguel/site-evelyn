@@ -15,15 +15,15 @@ export default function Dicas() {
             <div className='flex flex-col items-center'>
                 <Link className='mb-6 rounded-3xl overflow-hidden' href={'#'}>
                     <Image src={CardImg1} alt="dicas do card 1" />
-                    <a className='flex justify-center items-center text-lg font-bold text-white p-4 bg-gradient-to-r from-background1 to-background2'>PODCAST</a>
+                    <p className='flex justify-center items-center text-lg font-bold text-white p-4 bg-gradient-to-r from-background1 to-background2'>PODCAST</p>
                 </Link>
                 <Link className='mb-6 rounded-3xl overflow-hidden' href={'#'}>
                     <Image src={CardImg2} alt="dicas do card 1" />
-                    <a className='flex justify-center items-center text-lg font-bold text-white p-4 bg-gradient-to-r from-background1 to-background2'>FILMES</a>
+                    <p className='flex justify-center items-center text-lg font-bold text-white p-4 bg-gradient-to-r from-background1 to-background2'>FILMES</p>
                 </Link>
                 <Link className='mb-6 rounded-3xl overflow-hidden' href={'#'}>
                     <Image src={CardImg3} alt="dicas do card 1" />
-                    <a className='flex justify-center items-center text-lg font-bold text-white p-4 bg-gradient-to-r from-background1 to-background2'>LIVROS</a>
+                    <p className='flex justify-center items-center text-lg font-bold text-white p-4 bg-gradient-to-r from-background1 to-background2'>LIVROS</p>
                 </Link>
             </div>
         </div>
