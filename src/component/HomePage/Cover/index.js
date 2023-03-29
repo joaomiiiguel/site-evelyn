@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import ImgMulher from '../../../assets/mulherCapa.webp'
 import ButtonComp from '@/component/ButtonComp'
 import { IoLogoWhatsapp } from "react-icons/io5";
 
+import ImgMulher from '../../../assets/mulherCapa.webp'
 
 export default function Cover() {
   return (

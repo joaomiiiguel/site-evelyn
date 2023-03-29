@@ -14,7 +14,7 @@ export default function AboutUs() {
                 </p>
                 <ButtonComp name={'Saiba mais'} />
             </div>
-            <Image src={ImgAbout} width={350} alt='Mulher Sobre'/>
+            <Image src={ImgAbout} width={350} alt='Mulher Sobreasda'/>
             {/* <div className='py-4'>
                 <p className='text-gray text-sm'>CERTIFICAÇÕES:</p>
             </div> */}
