@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useLayoutEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { IoMenu, IoClose } from 'react-icons/io5';
 import { Drawer, Button, Box, List, ListItem, Divider, ListItemButton } from '@mui/material';
 
 import Logo from '../../../assets/LogoEvelyn.png'
+
 
 export default function Navbar() {
   const [showModalMenu, setShowModalMenu] = useState(false)
@@ -14,7 +15,7 @@ export default function Navbar() {
     setWidth(window.innerWidth);
   }
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     window.addEventListener('resize', handleWindowSizeChange);
     return () => {
       window.removeEventListener('resize', handleWindowSizeChange);
@@ -22,7 +23,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className='flex flex-row items-center w-screen justify-between px-[10%] py-6 fixed top-0 bg-white'>
+    <div className='flex flex-row items-center w-screen justify-between px-[10%] py-6 fixed top-0 bg-white z-50	'>
       <Image src={Logo} alt="Logo Exemplo" height={30} />
 
       {width > 700 ?
@@ -65,37 +66,12 @@ export default function Navbar() {
                   <Link href={'#'} className="p-2"><p className='font-bold'>CONTATO</p></Link>
                 </ListItemButton>
               </ListItem>
-
-              {/* <div className='flex fixed flex-col bg-white w-screen h-screen inset-0 items-center pt-6'>
-                <div className='flex w-screen justify-end pr-10'>
-                  <a onClick={() => setShowModalMenu(false)}><IoClose size={30} /></a>
-                </div>
-                <div className='flex flex-col items-center mt-10'>
-                  <Link href={'#'} className="p-2"><p className='font-bold'>SOBRE MIM</p></Link>
-                  <Link href={'#'} className="p-2"><p className='font-bold'>SERVIÇOS</p></Link>
-                  <Link href={'#'} className="p-2"><p className='font-bold'>DICAS</p></Link>
-                  <Link href={'#'} className="p-2"><p className='font-bold'>CONTATO</p></Link>
-                </div>
-              </div> */}
             </Box>
           </Drawer>
         </>
 
       }
 
-      {/* {showModalMenu &&
-        <div className='flex fixed flex-col bg-white w-screen inset-0 items-center pt-6'>
-          <div className='flex w-screen justify-end pr-10'>
-            <a onClick={() => setShowModalMenu(false)}><IoClose size={30} /></a>
-          </div>
-          <div className='flex flex-col items-center mt-10'>
-            <Link href={'#'} className="p-2"><p className='font-bold'>SOBRE MIM</p></Link>
-            <Link href={'#'} className="p-2"><p className='font-bold'>SERVIÇOS</p></Link>
-            <Link href={'#'} className="p-2"><p className='font-bold'>DICAS</p></Link>
-            <Link href={'#'} className="p-2"><p className='font-bold'>CONTATO</p></Link>
-          </div>
-        </div>
-      } */}
     </div>
   )
 }

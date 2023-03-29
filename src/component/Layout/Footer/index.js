@@ -7,8 +7,8 @@ import LogoBranca from '../../../assets/LogoBranca.png'
 
 export default function Footer() {
   return (
-    <div className='flex h-[20vh] bg-gray-dark w-screen flex-col justify-around items-center py-6'>
-      <div className='flex flex-row w-1/3 justify-around'>
+    <div className='flex h-[40vh] bg-gray-dark w-screen flex-col justify-around items-center py-6'>
+      <div className='flex flex-row w-1/3 justify-around md:w-1/6'>
         <Link href={'#'} ><BsInstagram color='#FFF'/></Link>
         <Link href={'#'} ><BsWhatsapp color='#FFF'/></Link>
         <Link href={'#'} ><BsYoutube color='#FFF'/></Link>
@@ -21,7 +21,7 @@ export default function Footer() {
         <Link href={'#'} className="p-2"><p className='font-bold opacity-50 text-gray-light text-sm'>CONTATO</p></Link>
       </div>
       <Image src={LogoBranca} alt="Logo Exemplo" height={30} />
-      <p className='text-white opacity-10 font-bold text-xs'>Copyright © 2023 - Evelyn Pinheiro. Todos os direitos reservados.</p>
+      <p className='text-white opacity-10 font-bold text-xs text-center'>Copyright © 2023 - Evelyn Pinheiro. Todos os direitos reservados.</p>
     </div>
   )
 }
