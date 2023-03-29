@@ -15,15 +15,15 @@ export default function Service() {
             <p className='font-bold text-2xl text-secondary mb-10'>Como eu posso te ajudar</p>
 
             <div className='flex flex-col w-screen items-center md:flex-row'>
-                <Link className='flex flex-col items-center transition ease-in-out delay-300 hover:opacity-70 mb-10 w-1/2' href={'#'}>
+                <Link className='flex flex-col items-center transition ease-in-out delay-300 hover:opacity-70 mb-10 w-1/2' href={'/servicos/cursos'}>
                     <Image src={Card1} alt="Imagem capa do curso" className='shadow-2xl ' />
                     <p className='font-bold bg-secondary-light py-4 px-8 w-max rounded-full mt-[-30px] shadow-2xl text-xs md:text-base'>CURSO</p>
                 </Link>
-                <Link className='flex flex-col items-center transition ease-in-out delay-300 hover:opacity-70 mb-10 w-1/2' href={'#'}>
+                <Link className='flex flex-col items-center transition ease-in-out delay-300 hover:opacity-70 mb-10 w-1/2' href={'/servicos/palestras'}>
                     <Image src={Card2} alt="Imagem capa do curso" className='shadow-2xl ' />
                     <p className='font-bold bg-secondary-light py-4 px-6 w-max rounded-full mt-[-30px] shadow-2xl text-xs md:text-base'>PALESTRAS</p>
                 </Link>
-                <Link className='flex flex-col items-center transition ease-in-out delay-300 hover:opacity-70 mb-10 w-1/2' href={'#'}>
+                <Link className='flex flex-col items-center transition ease-in-out delay-300 hover:opacity-70 mb-10 w-1/2' href={'/servicos/coaching_individual'}>
                     <Image src={Card3} alt="Imagem capa do curso" className='shadow-2xl ' />
                     <p className='font-bold bg-secondary-light py-4 px-6 w-max rounded-full mt-[-30px] shadow-2xl text-xs md:text-base'>COACHING INDIVIDUAL</p>
                 </Link>
