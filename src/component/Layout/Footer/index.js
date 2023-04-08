@@ -9,10 +9,10 @@ export default function Footer() {
   return (
     <div className='flex h-[40vh] bg-gray-dark w-screen flex-col justify-around items-center py-6'>
       <div className='flex flex-row w-1/3 justify-around md:w-1/6'>
-        <Link href={'#'} target="_blank" name="Instagram Logo"><BsInstagram color='#FFF'/></Link>
-        <Link href={'#'} target="_blank" name="Whatsapp Logo"><BsWhatsapp color='#FFF'/></Link>
-        <Link href={'#'} target="_blank" name="Youtube Logo"><BsYoutube color='#FFF'/></Link>
-        <Link href={'#'} target="_blank" name="Linkedin Logo"><BsLinkedin color='#FFF'/></Link>
+        <Link href={'#'} target="_blank" aria-label="Instagram Logo"><BsInstagram color='#FFF'/></Link>
+        <Link href={'#'} target="_blank" aria-label="Whatsapp Logo"><BsWhatsapp color='#FFF'/></Link>
+        <Link href={'#'} target="_blank" aria-label="Youtube Logo"><BsYoutube color='#FFF'/></Link>
+        <Link href={'#'} target="_blank" aria-label="Linkedin Logo"><BsLinkedin color='#FFF'/></Link>
       </div>
       <div className='flex flex-row'>
         <Link href={'#'} className="p-2"><p className='font-bold opacity-50 text-gray-light text-sm'>SOBRE MIM</p></Link>

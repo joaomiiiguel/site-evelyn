@@ -27,7 +27,7 @@ export default function Service() {
                         <p>Faça seu orçamento</p>
                     </Link>
                 </div>
-                <Image src={palestra1} width={600} alt="mulher falando no microfone" className='w-full md:w-1/4' />
+                <Image src={palestra1} width={600} alt="mulher falando no microfone" className='w-full md:w-1/4' loading="lazy"/>
 
             </div>
 
