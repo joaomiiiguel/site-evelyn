@@ -22,7 +22,7 @@ export default function Cover() {
           <div className='ml-2'><IoLogoWhatsapp /></ div>
         </Link>
       </div>
-      <Image src={ImgMulher} className='h-2/3 w-auto md:h-[80%] md:mt-20' alt='Mulher Sobre' />
+      <Image src={ImgMulher} width={300} className='h-2/3 w-auto md:h-[80%] md:mt-20' alt='Mulher Sobre' />
     </div>
   )
 }
