@@ -22,3 +22,10 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
+.bgCartaComp{
+  background-image: url('../assets/cartaBG.webp');
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
