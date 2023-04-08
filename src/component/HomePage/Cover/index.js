@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { IoLogoWhatsapp } from "react-icons/io5";
 
-import ImgMulher from '../../../assets/Home1.webp';
+import ImgMulher from '../../../assets/home1.webp';
 
 export default function Cover() {
   return (
