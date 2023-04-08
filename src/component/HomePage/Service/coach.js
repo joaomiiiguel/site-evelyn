@@ -10,7 +10,7 @@ export default function coach() {
             <p className='font-bold text-2xl text-secondary mb-10'>Programa de Coach Individual</p>
 
             <div className='flex flex-col justify-center w-screen items-center md:flex-row '>
-                    <Image src={coachImg} alt="mulher falando no microfone" className='w-full md:w-1/4' />
+                    <Image src={coachImg} width={600} alt="mulher falando no microfone" className='w-full md:w-1/4' />
                 <div className='px-4 md:w-[35%] text-left text-secondary font-medium '>
                     <p>
                         Se você tem dificuldade de alcançar seus objetivos sozinha, seja em relação à sua carreira, negócio ou vida pessoal, precisa de clareza e direcionamento para andar na direção certa para alcançar os seus objetivos, eu vou te direcionar através de uma metodologia comprovada em mais de mil horas de atendimentos.

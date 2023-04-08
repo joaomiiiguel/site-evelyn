@@ -42,7 +42,7 @@ export default function ProsperarComp() {
                         <p>Eu quero prosperar</p>
                     </Link>
                 </div>
-                <Image src={ImgProsp} alt="mulher falando no microfone" className='w-full md:w-1/4' />
+                <Image src={ImgProsp} width={600} alt="mulher falando no microfone" className='w-full md:w-1/4' />
 
             </div>
         </div>

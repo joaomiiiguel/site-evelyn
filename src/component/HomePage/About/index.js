@@ -14,7 +14,7 @@ export default function AboutUs() {
                     Trabalho direcionando mulheres a construção de uma vida próspera, abundante e feliz onde a realização pessoal e profissional acontecem simultaneamente.
                 </p>
             </div>
-            <Image src={ImgAbout} width={700} alt='Mulher Sobreasda' className='w-screen my-[-30px] md:mx-[-90px] md:w-[50%]' />
+            <Image src={ImgAbout} width={600} alt='Mulher Sobreasda' className='w-screen my-[-30px] md:mx-[-90px] md:w-[50%]' />
             <div className='flex flex-col space-y-2 md:w-[25%] '>
                 <div className='flex flex-row text-secondary '>
                     <BsCheck2Circle className='text-2xl w-1/12' />
