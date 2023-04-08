@@ -6,7 +6,7 @@ import { BsCheck2Circle } from "react-icons/bs";
 
 export default function AboutUs() {
     return (
-        <div className='flex flex-col bg-secondary-light px-10 w-screen min-h-[80vh] justify-center items-center py-16 md:flex-row'>
+        <div className='flex flex-col bg-secondary-light px-10 w-screen min-h-[80vh] font-medium justify-center items-center py-16 md:flex-row'>
             <div className='flex flex-col space-y-4 md:w-[25%]'>
                 <p className='text-secondary text-2xl font-bold text-center md:text-left'>Evelyn Pinheiro</p>
                 <p className='text-secondary text-lg text-center md:text-left'>

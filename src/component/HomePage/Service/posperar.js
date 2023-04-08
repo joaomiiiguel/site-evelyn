@@ -6,7 +6,7 @@ import ImgProsp from '../../../assets/ProspImg.webp'
 
 export default function ProsperarComp() {
     return (
-        <div className='flex flex-col text-center py-10 bg-gradient-to-r from-[#f3e7e9] to-[#e3eeff] min-h-[80vh]'>
+        <div className='flex flex-col text-center font-medium  py-10 bg-gradient-to-r from-[#f3e7e9] to-[#e3eeff] min-h-[80vh]'>
             <p className='font-bold text-2xl text-secondary mb-10'>Prosperar</p>
 
             <div className='flex flex-col justify-center w-screen items-center md:flex-row '>

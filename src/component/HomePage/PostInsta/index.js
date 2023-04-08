@@ -6,9 +6,9 @@ export default function PostInsta() {
             <p className='text-primary-dark'>MEU PERFIL</p>
             <p className='font-bold text-2xl text-secondary mb-10'>Instagram</p>
             <div className='flex flex-col md:flex-row'>
-                <iframe src='https://www.instagram.com/p/Cj8NfydrZ3Q/embed' width={300} height={420} frameborder="0" scrolling='no' className='m-4'></iframe>
-                <iframe src='https://www.instagram.com/p/CkDwfaUMFGt/embed' width={300} height={420} frameborder="0" scrolling='no' className='m-4'></iframe>
-                <iframe src='https://www.instagram.com/p/CkT-bqAACVI/embed' width={300} height={420} frameborder="0" scrolling='no' className='m-4'></iframe>
+                <iframe title='post instagram 1' src='https://www.instagram.com/p/Cj8NfydrZ3Q/embed' width={300} height={420} frameborder="0" scrolling='no' className='m-4'></iframe>
+                <iframe title='post instagram 2' src='https://www.instagram.com/p/CkDwfaUMFGt/embed' width={300} height={420} frameborder="0" scrolling='no' className='m-4'></iframe>
+                <iframe title='post instagram 3' src='https://www.instagram.com/p/CkT-bqAACVI/embed' width={300} height={420} frameborder="0" scrolling='no' className='m-4'></iframe>
             </div>
         </div>
     )

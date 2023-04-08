@@ -6,7 +6,7 @@ import ImageComp from '../../../assets/palestras.webp'
 
 export default function vidaProdutiva() {
     return (
-        <div className='flex flex-col text-center py-10 bg-gradient-to-r from-[#f3e7e9] to-[#e3eeff] min-h-[80vh]'>
+        <div className='flex flex-col font-medium  text-center py-10 bg-gradient-to-r from-[#f3e7e9] to-[#e3eeff] min-h-[80vh]'>
             <div className='flex flex-col justify-center w-screen items-center md:flex-row '>
                 <Image src={ImageComp} alt="mulher falando no microfone" className='w-full md:w-1/4' />
                 <div className='px-8 md:w-[35%] text-left text-secondary space-y-8'>

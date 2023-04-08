@@ -2,7 +2,7 @@ import React, { useState, useLayoutEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { IoMenu, IoClose } from 'react-icons/io5';
-import { Drawer, Button, Box, List, ListItem, Divider, ListItemButton } from '@mui/material';
+import { Drawer, Button, Box, List, ListItem, Divider, ListItemButton, IconButton } from '@mui/material';
 
 import Logo from '../../../assets/LogoEvelyn.png'
 
@@ -37,9 +37,9 @@ export default function Navbar() {
         </div>
         :
         <>
-          <Button onClick={() => setShowModalMenu(true)} >
+          <IconButton onClick={() => setShowModalMenu(true)}  aria-label="menu list">
             <IoMenu color='#000' size={25} />
-          </Button>
+          </IconButton>
           <Drawer
             anchor='right'
             open={showModalMenu}
