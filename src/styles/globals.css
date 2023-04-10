@@ -29,3 +29,15 @@ a {
   background-position: right;
   background-repeat: no-repeat;
 }
+
+.bgPalestra{
+  background-image: url('../assets/bgPalestra.webp');
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position: center;
+  background-size: contain auto;
+}
+
+.bgNoise{
+  background-image: url('../assets/noise.webp');
+}

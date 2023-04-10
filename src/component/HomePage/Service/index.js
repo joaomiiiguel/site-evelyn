@@ -14,9 +14,9 @@ import Imersao from './Imersao';
 
 export default function Service() {
     return (
-        <div className='flex flex-col text-center pt-10 bg-gradient-to-r from-[#434343] to-[#000000] min-h-[80vh]'>
+        <div className='flex flex-col text-center bg-gradient-to-r from-[#434343] to-[#000000] min-h-[80vh]'>
 
-            <div className='flex flex-col justify-center w-screen items-center md:flex-row '>
+            <div className='flex flex-col pt-10 justify-center w-screen items-center md:flex-row bgPalestra'>
                 <div className='px-4 md:w-[25%]'>
                     <p className='font-bold text-2xl text-white mb-10'>Palestras e Treinamentos</p>
                     <p className='text-white mb-16'>Já palestrei em grandes empresas como UNIMED e EDP Energias do Brasil sobre os temas felicidade no trabalho, comunicação e eficácia, produtividade e qualidade de vida, nos quais sou especialista. A próxima empresa a receber a minha palestra, ou treinamento, pode ser a sua!</p>

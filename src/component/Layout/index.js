@@ -13,7 +13,7 @@ export default function Layout({ title, children }) {
         <meta name="description" content="Cientista social, Coach de vida e carreira, especialista em felicidade e palestrante. Trabalho direcionando mulheres a construção de uma vida próspera, abundante e feliz onde a realização pessoal e profissional acontecem simultaneamente."/>
       </Head>
       <div className='flex flex-col justify-center items-center'>
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
         <Footer />
       </div>

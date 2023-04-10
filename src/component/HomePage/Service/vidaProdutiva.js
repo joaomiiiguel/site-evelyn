@@ -2,13 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import ImageComp from '../../../assets/palestras.webp'
+import ImageComp from '../../../assets/vidaProd.webp'
 
 export default function vidaProdutiva() {
     return (
-        <div className='flex flex-col font-medium  text-center py-10 bg-gradient-to-r from-[#f3e7e9] to-[#e3eeff] min-h-[80vh]'>
+        <div className='flex flex-col font-medium  text-center py-20 bg-gradient-to-r from-[#f3e7e9] to-[#e3eeff] min-h-[80vh]'>
             <div className='flex flex-col justify-center w-screen items-center md:flex-row '>
-                <Image src={ImageComp} width={600} alt="mulher falando no microfone" className='w-full md:w-1/4' />
+                <Image src={ImageComp} width={600} alt="mulher falando no microfone" className='w-full md:w-2/4' />
                 <div className='px-8 md:w-[35%] text-left text-secondary space-y-8'>
                     <p className='font-bold text-2xl text-secondary '>Vida Produtiva</p>
                     <p>

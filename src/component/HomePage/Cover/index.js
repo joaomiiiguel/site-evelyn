@@ -7,7 +7,7 @@ import ImgMulher from '../../../assets/home1.webp';
 
 export default function Cover() {
   return (
-    <div className='flex flex-col justify-center mt-20 md:mt-10 items-center h-[80vh] w-screen bg-gradient-to-r from-[#f3e7e9] to-[#e3eeff] md:items-end md:flex-row md:justify-center'>
+    <div className='flex flex-col justify-center items-center h-[95vh] w-screen bg-gradient-to-r from-[#f3e7e9] to-[#e3eeff] md:items-end md:flex-row md:justify-center'>
       <div className='flex flex-col h-full justify-center md:mr-6'>
         <p className='text-xl text-right md:text-3xl'>
           A única consequência <br />
