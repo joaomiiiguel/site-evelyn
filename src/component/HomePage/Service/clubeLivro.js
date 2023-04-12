@@ -6,7 +6,7 @@ import { BsCheck2Circle } from "react-icons/bs";
 
 export default function ClubeLivro() {
     return (
-        <div className='flex flex-col bg-secondary-light px-10 font-medium  w-screen min-h-[80vh] justify-center items-center py-16 md:flex-row'>
+        <div className='flex flex-col justify-center items-center w-screen px-[10%] py-6 md:items-center md:flex-row md:justify-around min-h-[80vh] bg-primary-light bgNoise'>
             <div className='flex flex-col space-y-4 md:w-[25%]'>
                 <p className='text-secondary text-2xl font-bold text-center md:text-left'>Comunidade Literária de Milhões</p>
                 <p className='text-secondary text-lg text-center md:text-left'>
@@ -14,7 +14,7 @@ export default function ClubeLivro() {
                 Em 3 edições juntas, já levamos conhecimentos para mais de +200 alunas, com os temas: relacionamento, prosperidade e carreira, vendas e comunicação.
                 </p>
             </div>
-            <Image src={ImgAbout} width={700} alt='Mulher Sobreasda' className='my-[-30px] md:w-[20%]' />
+            <Image src={ImgAbout} width={700} alt='Mulher Sobreasda' className='my-2 md:my-[-30px] md:w-[20%]' />
             <div className='flex flex-col space-y-2 md:w-[25%] text-left '>
                 <div className='flex flex-row text-secondary '>
                     <BsCheck2Circle className='text-2xl w-1/12' />

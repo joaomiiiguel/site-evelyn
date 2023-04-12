@@ -6,11 +6,11 @@ import ImgProsp from '../../../assets/ProspImg.webp'
 
 export default function ProsperarComp() {
     return (
-        <div className='flex flex-col text-center font-medium  py-10 bg-gradient-to-r from-[#f3e7e9] to-[#e3eeff] min-h-[80vh]'>
+        <div className='flex flex-col text-center font-medium py-10 px-[10%] bg-gradient-to-r from-[#f3e7e9] to-[#e3eeff] min-h-[80vh]'>
             <p className='font-bold text-2xl text-secondary mb-10'>Prosperar</p>
 
-            <div className='flex flex-col justify-center w-screen items-center md:flex-row '>
-                <div className='px-4 md:w-[35%] text-left text-secondary'>
+            <div className='flex flex-col justify-center w-full items-center md:flex-row '>
+                <div className='px-4 text-left text-secondary'>
                     <p>
                         O guia prático para alcançar a prosperidade e conquistar uma vida mais feliz e lucrativa
                         <br /><br />
@@ -42,8 +42,7 @@ export default function ProsperarComp() {
                         <p>Eu quero prosperar</p>
                     </Link>
                 </div>
-                <Image src={ImgProsp} width={600} alt="mulher falando no microfone" className='w-full md:w-1/4' />
-
+                <Image src={ImgProsp} width={600} alt="mulher falando no microfone" className='w-full md:w-1/2' />
             </div>
         </div>
     )
