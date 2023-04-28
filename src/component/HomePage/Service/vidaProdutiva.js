@@ -6,11 +6,11 @@ import ImageComp from '../../../assets/vidaProd.webp'
 
 export default function vidaProdutiva() {
     return (
-        <div className='flex flex-col font-medium  text-center py-20 bg-gradient-to-r from-[#f3e7e9] to-[#e3eeff] min-h-[80vh]'>
-            <div className='flex flex-col justify-center w-screen items-center md:flex-row '>
+        <div className='flex flex-col w-full font-medium items-center text-center py-20 bg-gradient-to-r from-[#f3e7e9] to-[#e3eeff] min-h-[80vh]'>
+            <p className='font-bold text-2xl text-secondary py-8'>Vida Produtiva</p>
+            <div className='flex flex-col-reverse justify-center w-screen items-center md:flex-row max-w-[1000px] '>
                 <Image src={ImageComp} width={600} alt="mulher falando no microfone" className='w-full md:w-2/4' />
-                <div className='px-8 md:w-[35%] text-left text-secondary space-y-8'>
-                    <p className='font-bold text-2xl text-secondary '>Vida Produtiva</p>
+                <div className='px-8 md:w-full text-left text-secondary space-y-8'>
                     <p>
                         O curso online que te faz largar de uma vez por todas a procrastinação e concluir a sua lista de tarefas do dia, todos os dias, mesmo que os seus dias sejam muito diferentes um do outro.
                         <br /><br />
@@ -24,7 +24,7 @@ export default function vidaProdutiva() {
                     <Link
                         href={'https://wa.me/5527992567192?text=Ol%C3%A1+Evelyn%2C+gostei+do+seu+trabalho.'}
                         target="_blank"
-                        className='flex rounded-full my-4 p-4 bg-primary-dark hover:brightness-125 text-white text-center items-center justify-center transition ease-in-out delay-150'>
+                        className='flex rounded my-4 p-4 bg-secondary hover:brightness-125 text-white text-center items-center justify-center transition ease-in-out delay-150'>
                         <p>Tenha uma vida produtiva</p>
                     </Link>
                 </div>

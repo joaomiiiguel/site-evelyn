@@ -6,11 +6,12 @@ import { BsCheck2Circle } from "react-icons/bs";
 
 export default function AboutUs() {
     return (
-        <div className='flex flex-col bg-primary-light px-10 w-screen min-h-[80vh] font-medium justify-center items-center py-16 md:flex-row bgNoise'>
+        <div className='flex flex-col bg-primary-light px-10 w-screen md:h-[80vh] font-medium justify-center items-center py-16 md:flex-row bgNoise'>
             <div className='flex flex-col space-y-4 md:w-[25%]'>
                 <p className='text-secondary text-2xl font-bold text-center md:text-left'>Evelyn Pinheiro</p>
                 <p className='text-secondary text-lg text-center md:text-left'>
-                    Cientista social, Coach de vida e carreira, especialista em felicidade e palestrante.<br /><br />
+                    Cientista social, Coach de vida e carreira, especialista em felicidade e palestrante.
+                    <br /><br />
                     Trabalho direcionando mulheres a construção de uma vida próspera, abundante e feliz onde a realização pessoal e profissional acontecem simultaneamente.
                 </p>
             </div>

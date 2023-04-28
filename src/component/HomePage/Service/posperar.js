@@ -6,10 +6,9 @@ import ImgProsp from '../../../assets/ProspImg.webp'
 
 export default function ProsperarComp() {
     return (
-        <div className='flex flex-col text-center font-medium py-10 px-[10%] bg-gradient-to-r from-[#f3e7e9] to-[#e3eeff] min-h-[80vh]'>
+        <div className='flex flex-col w-full items-center text-center font-medium py-10 p-[10%] bg-gradient-to-r from-[#f3e7e9] to-[#e3eeff] min-h-[80vh]'>
             <p className='font-bold text-2xl text-secondary mb-10'>Prosperar</p>
-
-            <div className='flex flex-col justify-center w-full items-center md:flex-row '>
+            <div className='flex flex-col justify-center w-full items-center md:flex-row max-w-[1000px] space-y-6'>
                 <div className='px-4 text-left text-secondary'>
                     <p>
                         O guia prático para alcançar a prosperidade e conquistar uma vida mais feliz e lucrativa
@@ -38,7 +37,7 @@ export default function ProsperarComp() {
                     <Link
                         href={'https://wa.me/5527992567192?text=Ol%C3%A1+Evelyn%2C+gostei+do+seu+trabalho.'}
                         target="_blank"
-                        className='flex rounded-full my-2 p-2 bg-secondary hover:brightness-125 text-white text-center items-center justify-center transition ease-in-out delay-150'>
+                        className='flex rounded my-2 p-2 bg-secondary hover:brightness-125 text-white text-center items-center justify-center transition ease-in-out delay-150'>
                         <p>Eu quero prosperar</p>
                     </Link>
                 </div>
