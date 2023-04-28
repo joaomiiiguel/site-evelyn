@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 
 export default function cartaComp() {
     return (
-        <div className='flex flex-col justify-center px-[5%] items-center w-screen md:items-center md:pl-[10%] md:flex-row md:justify-start min-h-[80vh] bg-[#CEC3C7] bgCartaComp'>
+        <div className='flex flex-col justify-center px-[10%] md:pl-[15%] items-center w-screen md:items-center md:flex-row md:justify-start min-h-[80vh] bg-[#CEC3C7] bgCartaComp'>
             <div className='flex flex-col text-secondary px-8 py-10 my-8 rounded-xl shadow-lg space-y-4 bg-[#f3e7e9b2] md:w-1/2'>
                 <p className='font-bold text-2xl'>CARTA DA EVELYN</p>
                 <p className='font-semibold text-sm text-justify md:text-base'>Domingo é dia de receber &quot;A carta da Evelyn&quot;. Uma carta especial, que eu escrevo a todas as mulheres que têm o desejo de prosperar na carreira e na vida. Essa carta vai te deixar com o coração quentinho, cheia de inspiração e motivação para descobrir o seu potencial e conquistar os seus sonhos com ações consistentes semana a semana.</p>

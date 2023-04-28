@@ -6,10 +6,10 @@ import ImgProsp from '../../../assets/ProspImg.webp'
 
 export default function ProsperarComp() {
     return (
-        <div className='flex flex-col w-full items-center text-center font-medium py-10 p-[10%] bg-gradient-to-r from-[#f3e7e9] to-[#e3eeff] min-h-[80vh]'>
+        <div className='flex flex-col w-full items-center text-center font-medium py-10 px-[10%] md:px-[15%] bg-gradient-to-r from-[#f3e7e9] to-[#e3eeff] min-h-[80vh]'>
             <p className='font-bold text-2xl text-secondary mb-10'>Prosperar</p>
-            <div className='flex flex-col justify-center w-full items-center md:flex-row max-w-[1000px] space-y-6'>
-                <div className='px-4 text-left text-secondary'>
+            <div className='flex flex-col justify-around w-full items-center md:flex-row space-y-6'>
+                <div className='px-4 text-left text-secondary md:w-[40%]'>
                     <p>
                         O guia prático para alcançar a prosperidade e conquistar uma vida mais feliz e lucrativa
                         <br /><br />

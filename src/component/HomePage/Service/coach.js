@@ -6,7 +6,7 @@ import coachImg from '../../../assets/coach.webp'
 
 export default function coach() {
     return (
-        <div className='flex flex-col-reverse justify-center items-center w-screen px-[10%] pt-10 md:items-end md:flex-row md:justify-around min-h-[80vh] bg-primary-light bgNoise'>
+        <div className='flex flex-col-reverse justify-center items-center w-screen px-[10%] md:px-[15%] pt-10 md:items-end md:flex-row md:justify-around min-h-[80vh] bg-primary-light bgNoise'>
             <Image src={coachImg} width={600} alt="mulher falando no microfone" className='w-full md:h-[80vh] md:w-auto' />
             <div className='px-4 md:w-[45%] text-left text-secondary font-medium md:pt-14 md:h-[80vh]'>
                 <div className='flex flex-col space-y-5'>

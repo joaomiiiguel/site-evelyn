@@ -8,7 +8,7 @@ import assinatura from '../../../assets/ass.png'
 
 export default function Cover() {
   return (
-    <div className='flex flex-col justify-center items-center w-screen px-[10%] pt-10 md:items-end md:flex-row md:justify-around h-[90vh]  bg-secondary text-primary-light md:px-[20%] '>
+    <div className='flex flex-col justify-center items-center w-screen px-[10%] pt-10 md:items-end md:flex-row md:justify-around h-[90vh]  bg-secondary text-primary-light md:px-[15%] '>
       <div className='flex flex-col md:h-[80vh] justify-center space-y-8 md:space-y-16'>
         <Image src={assinatura} alt="assinatura"/>
         <p className='text-xl tracking-wide font-light text-right md:text-3xl md:tracking-widest'>

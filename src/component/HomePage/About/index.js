@@ -6,9 +6,9 @@ import { BsCheck2Circle } from "react-icons/bs";
 
 export default function AboutUs() {
     return (
-        <div className='flex flex-col bg-primary-light px-10 w-screen md:h-[80vh] font-medium justify-center items-center py-16 md:flex-row bgNoise'>
-            <div className='flex flex-col space-y-4 md:w-[25%]'>
-                <p className='text-secondary text-2xl font-bold text-center md:text-left'>Evelyn Pinheiro</p>
+        <div className='flex flex-col bg-primary-light px-[10%] md:px-[15%] w-screen md:h-[80vh] font-medium justify-around items-center py-16 md:flex-row bgNoise'>
+            <div className='flex flex-col space-y-4 md:w-1/2'>
+                <p className='text-secondary text-3xl font-bold text-center md:text-left'>Evelyn Pinheiro</p>
                 <p className='text-secondary text-lg text-center md:text-left'>
                     Cientista social, Coach de vida e carreira, especialista em felicidade e palestrante.
                     <br /><br />
@@ -16,7 +16,7 @@ export default function AboutUs() {
                 </p>
             </div>
             <Image src={ImgAbout} width={600} alt='Mulher Sobreasda' className='w-screen my-[-30px] md:mx-[-10%] md:w-[50%]' />
-            <div className='flex flex-col space-y-2 md:w-[25%]'>
+            <div className='flex flex-col space-y-2 md:w-1/2'>
                 <div className='flex flex-row text-secondary '>
                     <BsCheck2Circle className='text-2xl w-1/12' />
                     <p className='w-11/12'><strong>Mestre</strong> em Ciências Sociais</p>
