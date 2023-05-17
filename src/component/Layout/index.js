@@ -4,9 +4,6 @@ import Footer from './Footer'
 import Script from 'next/script'
 
 export default function Layout({ title, children }) {
-  ReactGA.initialize('UA-000000-01');
-  ReactGA.pageview(window.location.pathname + window.location.search);
-
   return (
     <div>
       <Head>
