@@ -1,29 +1,20 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-import CardImg1 from '../../../assets/dicasCard1.png'
-import CardImg2 from '../../../assets/dicasCard2.png'
-import CardImg3 from '../../../assets/dicasCard3.png'
 
 export default function Dicas() {
     return (
-        <div className='text-center pt-10'>
-            <p className='text-primary-dark'>FICA LIGADO</p>
-            <p className='font-bold text-2xl text-secondary mb-10'>Dicas da Evelyn</p>
+        <div className='flex items-center justify-center w-full min-h-[40vh] bgDicas md:justify-start md:pl-[10%]'>
+            <div className='flex flex-col w-10/12 md:w-4/12 mt-16'>
+                <p className='font-bold text-2xl text-white uppercase'>SUGESTÕES DA EVELYN</p>
+                <p className=' text-white mb-10'>Encontre dicas imperdíveis de podcasts, filmes e livros em uma única página.</p>
 
-            <div className='flex flex-col items-center md:flex-row'>
-                <Link className='m-6 rounded-3xl overflow-hidden' href={'/dicas'}>
-                    <Image src={CardImg1} alt="dicas do card 1" loading="lazy"/>
-                    <p className='flex justify-center items-center text-lg font-bold text-white p-4 bg-gradient-to-r from-background1 to-background2'>PODCAST</p>
-                </Link>
-                <Link className='m-6 rounded-3xl overflow-hidden' href={'/dicas'}>
-                    <Image src={CardImg2} alt="dicas do card 2" loading="lazy"/>
-                    <p className='flex justify-center items-center text-lg font-bold text-white p-4 bg-gradient-to-r from-background1 to-background2'>FILMES</p>
-                </Link>
-                <Link className='m-6 rounded-3xl overflow-hidden' href={'/dicas'}>
-                    <Image src={CardImg3} alt="dicas do card 3" loading="lazy"/>
-                    <p className='flex justify-center items-center text-lg font-bold text-white p-4 bg-gradient-to-r from-background1 to-background2'>LIVROS</p>
+                <Link
+                    className='flex my-6 p-2 bg-primary hover:brightness-125 text-secondary text-center items-center justify-center transition ease-in-out delay-150 uppercase font-semibold'
+                    href={'https://educated-rugby-222.notion.site/Sugest-es-da-Evelyn-Pinheiro-3bacf224620c44e6abb17db52554655c'}
+                    target="_blank"
+                >
+                    <p>acesse agora mesmo</p>
                 </Link>
             </div>
         </div>

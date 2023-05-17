@@ -14,7 +14,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background-color: #EDEDED;
+  background-color: #242736;
 }
 
 a {
@@ -30,17 +30,18 @@ a {
   background-repeat: no-repeat;
 }
 
-.bgPalestra{
-  background-image: url('../assets/bgPalestra.webp');
-  background-repeat: no-repeat;
-  background-attachment:fixed;
+
+.bgCoach{
+  background-image: url('../assets/fundo1.webp');
   background-position: center;
-  background-size: contain auto;
+  background-size: cover;
 }
 
-.bgNoise{
-  background-image: url('../assets/noise.webp');
-  background-blend-mode: multiply;
+.bgDicas{
+  background-image: url('../assets/bgDicas.webp');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 768px) {

@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import ImgProsp from '../../../assets/ProspImg.webp'
+// import ImgProsp from '../../../assets/ProspImg.webp'
 
 export default function ProsperarComp() {
     return (
@@ -41,7 +41,7 @@ export default function ProsperarComp() {
                         <p>Eu quero prosperar</p>
                     </Link>
                 </div>
-                <Image src={ImgProsp} width={600} alt="mulher falando no microfone" className='w-full md:w-1/2' />
+                {/* <Image src={ImgProsp} width={600} alt="mulher falando no microfone" className='w-full md:w-1/2' /> */}
             </div>
         </div>
     )
