@@ -7,20 +7,20 @@ export default function CartaComp() {
     const [email, setEmail] = useState("")
     const [state, setState] = useState('idle') /* 'idle' | 'success' | 'error' */
 
-    const novoContato = {
-        email: 'exemplo@exemplo.com',
-        firstName: 'John',
-    };
+    const novoContato = {contact: {email: email, firstName: name}}
+
 
     // Configurações da requisição
-    const apiKey = '732e776d7b1d8efe23bf9f59deff72a8e79e43c2c0b93c48539b33c9985285a4c9ad2d56';
     const url = 'https://evelynpinheiro.api-us1.com/api/3/contacts';
+    const apiKey = '732e776d7b1d8efe23bf9f59deff72a8e79e43c2c0b93c48539b33c9985285a4c9ad2d56';
 
     // Configuração do cabeçalho da requisição
     const headers = {
-        'Api-Token': apiKey,
-        'Content-Type': 'application/json'
-    };
+        accept: 'application/json',
+        'Access-Control-Allow-Origin': '*',
+        'content-type': 'application/json',
+        'Api-Token': apiKey
+      }
 
 
     const subscribe = async (e) => {
@@ -39,7 +39,7 @@ export default function CartaComp() {
                 })
                 .catch(error => {
                     console.error('Erro ao criar novo contato:');
-                    console.error(error.response.data);
+                    console.error(error);
                 });
         }
     }
