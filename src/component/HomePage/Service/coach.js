@@ -28,7 +28,7 @@ export default function coach() {
 
                     <Link
                         className='flex my-6 p-2 bg-secondary hover:brightness-125 text-white text-center items-center justify-center transition ease-in-out delay-150 uppercase'
-                        href={'https://wa.me/5527992567192?text=Ol%C3%A1+Evelyn%2C+gostei+do+seu+trabalho.'}
+                        href={'https://wa.me/5527992567192?text=Ol%C3%A1+Evelyn%2C+eu+tenho+interesse+sobre+o+seu+trabalho+de+coaching+individual.'}
                         target="_blank"
                     >
                         <p>Garanta sua Vaga</p>

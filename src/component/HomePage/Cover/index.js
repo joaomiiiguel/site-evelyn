@@ -10,7 +10,7 @@ export default function Cover() {
   return (
     <div className='flex flex-col justify-center items-center w-10/12 pt-10 h-[90vh] bg-secondary text-primary-light space-x-4 md:items-end md:flex-row md:justify-around'>
       <div className='flex flex-col items-center justify-center space-y-8 md:space-y-16 md:h-[80vh]'>
-        <Image src={assinatura} alt="assinatura" className='w-6/12 '/>
+        <Image src={assinatura} alt="assinatura" className='w-6/12 md:w-4/12'/>
         <p className='text-xl tracking-wide font-light text-right md:text-2xl md:tracking-widest'>
           A única consequência <br />
           de andar na direção

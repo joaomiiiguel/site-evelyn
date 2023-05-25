@@ -47,7 +47,7 @@ export default function ClubeLivro() {
 
                     <Link
                         className='flex my-6 p-2 bg-primary hover:brightness-125 text-secondary text-center items-center justify-center transition ease-in-out delay-150 uppercase font-medium'
-                        href={'https://wa.me/5527992567192?text=Ol%C3%A1+Evelyn%2C+gostei+do+seu+trabalho.'}
+                        href={'https://wa.me/5527992567192?text=Ol%C3%A1+Evelyn%2C+eu+tenho+interesse+sobre+o+seu+trabalho+sobre+a+comunidade+literaria.'}
                         target="_blank"
                     >
                         <p>Inscreva-se agora mesmo</p>
