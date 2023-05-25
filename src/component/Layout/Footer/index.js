@@ -4,9 +4,11 @@ import Link from 'next/link'
 import { BsInstagram, BsWhatsapp, BsYoutube, BsLinkedin } from "react-icons/bs";
 
 import LogoBranca from '../../../assets/logoCover.webp'
+import Capa from '../../../assets/capaMeta.webp'
 
 
 export default function Footer() {
+  console.log(Capa);
   return (
     <div className='flex w-10/12 h-[30vh] bg-gray-dark flex-col justify-around items-center py-6'>
       <div className='flex flex-row w-1/3 justify-around md:w-1/6'>
