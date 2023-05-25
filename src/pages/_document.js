@@ -1,5 +1,7 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
+import Capa from '../assets/capaMeta.webp'
+
 export default function Document() {
   return (
     <Html lang="pt-br">
@@ -9,7 +11,7 @@ export default function Document() {
         <meta name="description" content="Cientista social, Coach de vida e carreira, especialista em felicidade e palestrante. Trabalho direcionando mulheres a construção de uma vida próspera, abundante e feliz onde a realização pessoal e profissional acontecem simultaneamente." />
         <meta name="keywords" content="Coaching, Palestra, Vendas, Treinamentos, Palestrante, Promoção, Crescimento, profissional, Carreira" />
         <meta name="author" content="João Miguel" />
-        <meta property="og:image" content="https://www.evelynpinheiro.com.br/_next/static/media/capaMeta.156b7d7c.webp" data-head-react="true" />
+        <meta property="og:image" content={Capa} data-head-react="true" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" />
